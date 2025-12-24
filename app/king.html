@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of Creating Zebra-striped Tables</title>
+<style>
+    table {
+        width: 100%;        
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-top: 1px solid white
+    }
+    tbody tr:nth-child(2) {
+        background-color: white
+    }
+    tbody tr:nth-child(3) {
+        background-color: green
+    }
+        tbody tr:nth-child(4) {
+        background-color: green
+    }
+    tbody tr:nth-child(8) {
+        background-color: yellow;
+        color: black;
+    }
+    tbody tr:nth-child(9) {
+        background-color: yellow;
+        color: black;
+    }
+    tbody tr:nth-child(10) {
+        background-color: yellow;
+        color: black;
+    }
+    tbody tr:nth-child(5) {
+        background-color: green
+    }
+    tbody tr:nth-child(1) {
+        background-color: black;
+        color: white;
+    }
+    tbody tr:nth-child(6) {
+        background-color: black;
+        color: white;
+    }
+    tbody tr:nth-child(7) {
+        background-color: black;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Row</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>king</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>emeka</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>delight</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>emma</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>chioma</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>wisdom</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>dominion</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Clark</td>
+                <td>Kent</td>
+                <td>clarkkent@mail.com</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>John</td>
+                <td>Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>            
+        </tbody>
+    </table>
+</body>
+</html>
